@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Portfolio</title>
+    <script
+    src="https://code.jquery.com/jquery-3.1.1.min.js"
+    integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+    crossorigin="anonymous"></script>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed|Source+Sans+Pro|Playfair+Display|Roboto|Merriweather|Lato|Droid+Serif' rel='stylesheet' type='text/css'>
+    
+    <link href="first_portfolio.css" rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+    <nav class="navbar header">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-right" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <h1 class=title>Stephanie Chin</h1>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="navbar-collapse-right">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="#about-section">ABOUT <span class="sr-only">(current)</span></a></li>
+            <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">PORTFOLIO<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#Hermione-Granger-Tribute-Page" class="dropdown-content">Hermione Granger Tribute Page</a></li>
+              <li><a href="#Design-2" class="dropdown-content">Design 2</a></li>
+              <li><a href="#Design-3" class="dropdown-content">Design 3</a></li>
+              <li><a href="#Design-4" class="dropdown-content">Design 4</a></li>
+              <li><a href="#Design-5" class="dropdown-content">Design 5</a></li>
+              <li><a href="#Design-6" class="dropdown-content">Design 6</a></li></ul>
+              <li><a href="#contact-section">CONTACT</a></li>
+              <li><a href="#social-section">SOCIAL</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+
+    <div id="below-nav">
+
+      <div id="about-section">
+        <h2>About</h2>
+        <p>Hi! My name is Stephanie Chin. I'm a newbie taking freecodecamp and starting out with the basics. I live in San Francisco and am originally from San Diego. </p>
+      </div>
+
+      <div id="portfolio-section">
+          <div style="text-align: center">
+              <a href="https://codepen.io/stephjuechin/pen/MeJxWP" target="_blank"><img class="portfolio-image" src="https://s-media-cache-ak0.pinimg.com/originals/be/d3/f6/bed3f6d433f8381191f48e6822fedf77.png" alt="Hermione-Granger-Tribute-Page" id="Hermione-Granger-Tribute-Page"></a>
+              <a href="#" target="_blank"><img class="portfolio-image" src="https://s-media-cache-ak0.pinimg.com/originals/f3/ee/8f/f3ee8f93e8aa3d7536827092d7728a32.jpg" alt="placeholder" id="Design-2"></a>
+          </div>
+            <div style="text-align: center">
+              <a href="#" target="_blank"><img class="portfolio-image" src="https://s-media-cache-ak0.pinimg.com/originals/df/33/dd/df33dd07cb017366ff3c29be42e81e3a.jpg" alt="placeholder" id="Design-3"></a>
+              <a href="#" target="_blank"><img class="portfolio-image" src="https://s-media-cache-ak0.pinimg.com/originals/15/25/10/15251070ebece55baf1eb6e6d3c9a723.jpg" alt="placeholder" id="Design-4"></a>
+          </div>
+            <div style="text-align: center">
+              <a href="#" target="_blank"><img class="portfolio-image" src="https://s-media-cache-ak0.pinimg.com/originals/4a/e0/e6/4ae0e61ba584805f84525acaf6354c62.jpg" alt="placeholder" id="Design-5"></a>
+              <a href="#" target="_blank"><img class="portfolio-image" src="https://s-media-cache-ak0.pinimg.com/originals/a6/55/31/a655313250399c9a930cfc28b2b92fd0.jpg" alt="placeholder" id="Design-6"></a>
+          </div>
+        </div>
+
+        <div id="contact-section">
+         <div class="container">
+          <h2 class="contact-header">Contact</h2>
+          <p>Feel free to submit a message and I'll get back to you as soon as I can (once this is implemented)!</p>
+          <div class="form-section">
+              <form action="MAILTO:##" method="post" enctype="text/plain" role="form">
+                <div class="form-group">
+                  <label for="name" class="form-fields">Name:</label>
+                  <input type="text" class="form-control" id="name">
+                </div>
+                <div class="form-group">
+                  <label for="email" class="form-fields">Email:</label>
+                  <input type="text" class="form-control" id="email">
+                </div>
+                <div class="form-group">
+                  <label for="comment" class="form-fields">Comment:</label>
+                  <textarea class="form-control" rows="5" id="comment"></textarea>
+                </div>
+                <button type="submit" class="btn btn-default">Submit</button>
+              </form>
+           </div>
+          </div><!-- container end -->
+          </div><!-- contact section end -->
+
+        <div class="social-section" id="social-section">
+          <p class="form-fields">CONNECT WITH ME</p>
+          <a href="https://www.facebook.com/stephjuechin" class="facebook-icon" target="_blank"></a>
+          <a href="https://www.linkedin.com/in/stephanie-chin-24492b13" class="linkedin-icon" target="_blank"></a>
+          <a href="https://plus.google.com/u/0/117355687092882050897/about/p/pub" class="googleplus-icon" target="_blank"></a>
+          <a href="https://twitter.com/Steph_Chin" class="twitter-icon" target="_blank"></a>
+        </div>
+
+  </body>
+</html>

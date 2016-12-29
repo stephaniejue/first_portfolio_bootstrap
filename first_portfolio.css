@@ -1,0 +1,132 @@
+.title{
+  font-size: 34px;
+  font-family: 'Lato', sans-serif;
+  color: Black;
+}
+.header{
+  border-bottom: 1px solid #E0E0E0;
+  margin: 20px;
+}
+.icon-bar {
+  background-color: #E0E0E0;
+}
+#below-nav{
+  width: 87%;
+  margin: auto;
+  background-color: white;
+}
+#about-section{
+  border: 2px solid #888888;
+  padding: 20px;
+}
+p {
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+}
+#portfolio-section{
+  width: auto;
+  padding: 20px;
+}
+.portfolio-image{
+  max-width: 475px;
+  width: 90%;
+  margin: 10px;
+  text-align: center;
+  overflow: hidden;
+  box-shadow: 5px 5px 5px #888888;
+}
+a:link, a:visited {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 20px;
+  color: #C9C9C9;
+}
+a:hover {
+  color: black;
+  background-color: white !important;
+}
+/* Links inside the dropdown */
+.dropdown-content {
+  color: black !important;
+  padding: 12px 16px;
+  text-decoration: none;
+}
+/* Change color of dropdown links on hover */
+.dropdown-content:hover {
+  color: #C9C9C9 !important;
+}
+#contact-section{
+  border: 2px solid #888888;
+  padding: 20px;
+  margin-bottom: 40px;
+}
+h2{
+  font-family: 'Lato', sans-serif;
+  font-size: 24px;
+  color: black;
+}
+.form-section {
+  display: inline-block;
+  width: 450px;
+}
+.form-fields{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 20px;
+  color: #C9C9C9;
+}
+.social-section{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -10px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.facebook-icon {
+ width: 42px;
+  height: 42px;
+  content: url('https://cdn3.iconfinder.com/data/icons/free-social-icons/67/facebook_circle_gray-128.png');
+}
+
+.facebook-icon:hover {
+ width: 42px;
+  height: 42px;
+  content: url('https://cdn3.iconfinder.com/data/icons/free-social-icons/67/facebook_circle_color-128.png');
+}
+
+.linkedin-icon {
+ width: 42px;
+  height: 42px;
+  content: url('https://cdn3.iconfinder.com/data/icons/free-social-icons/67/linkedin_circle_gray-128.png');
+}
+
+.linkedin-icon:hover {
+ width: 42px;
+  height: 42px;
+  content: url('https://cdn3.iconfinder.com/data/icons/free-social-icons/67/linkedin_circle_color-512.png');
+}
+
+.googleplus-icon {
+ width: 42px;
+  height: 42px;
+  content: url('https://cdn3.iconfinder.com/data/icons/free-social-icons/67/google_circle_gray-128.png');
+}
+
+.googleplus-icon:hover {
+ width: 42px;
+  height: 42px;
+  content: url('https://cdn3.iconfinder.com/data/icons/free-social-icons/67/google_circle_color-128.png');
+}
+
+.twitter-icon {
+ width: 42px;
+  height: 42px;
+  content: url('https://cdn3.iconfinder.com/data/icons/free-social-icons/67/twitter_circle_gray-128.png');
+}
+
+.twitter-icon:hover {
+ width: 42px;
+  height: 42px;
+  content: url('https://cdn3.iconfinder.com/data/icons/free-social-icons/67/twitter_circle_color-128.png');
+}
+.social-icons{
+  display: inline-block;
+}
